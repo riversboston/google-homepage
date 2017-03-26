@@ -1,0 +1,93 @@
+body{
+  font: Arial;
+  text-decoration:none;
+}
+div{
+  display: inline;
+  margin-right:2px;
+  right:2px;
+  float:right;
+}
+a {
+  font-family: Arial, sans-serif;
+  text-decoration:none;
+  color:#6B6B6B;
+  font-size: .9em;
+  padding: 6px;
+}
+a:hover{
+  text-decoration: underline;
+}
+#signIn a{
+  height:20px;
+  width: 60px;
+  background-color:blue;
+  border-radius: 3px;
+  color:white;
+  margin-left:10px;
+}
+#signIn a:active{
+  height:20px;
+  width: 60px;
+  background-color:blue;
+  border-radius: 3px;
+  color:black;
+}
+#logo{
+  left:50%;
+  position: fixed;
+  margin-top:150px;
+  margin-left:-130px;
+}
+#bar{
+  left:50%;
+  position: fixed;
+  margin-top:275px;
+  margin-left:-250px;
+  border:solid #6B6B6B 1px;
+  border-radius:3px;
+  height: 30px;
+  width:500px;
+  background-color: white;
+}
+p: hover{
+  border:solid #6B6B6B 4px;
+}
+#buttons{
+  display:inline;
+  left:50%;
+  position: fixed;
+  margin-top:350px;
+  margin-left:-150px;
+
+}
+input{
+  height:40px;
+  width:140px;
+  background-color: white;
+  border:solid #6B6B6B 1px;
+  border-radius:3px;
+  font-size:.95em;
+  margin:5px;
+}
+.bottom{
+  border-width:1px 0px 0px 0px;
+  border-style:solid dashed dashed dashed;
+  border-color:#6b6b6b;
+  background-color:#f0f0f0;
+  height:30px;
+  left:0px;
+  bottom:0px;
+  position:fixed;
+  margin-bottom: 0px;
+}
+#bottom-left{
+  display:inline;
+  left:0px;
+  position:fixed;
+}
+#bottom-right{
+  display:inline;
+  right:0px;
+  position:fixed;
+}
